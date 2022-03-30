@@ -1,0 +1,21 @@
+4 types of functional interfaces in JAVA
+
+1 Consumer - interface Consumer<T>
+https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html
+void consume(obj) - it takes single argument and return no result.it only consumes a value.
+
+public interface BiConsumer<T,U>
+Represents an operation that accepts two input arguments and returns no result.
+This is the two-arity specialization of Consumer.
+Unlike most other functional interfaces, BiConsumer is expected to operate via side-effects.
+https://docs.oracle.com/javase/8/docs/api/java/util/function/BiConsumer.html
+
+
+2 Supplier
+obj supply() - it takes no input but returns a value.
+
+3 Function
+obj function(abj) it can map a value to a different value.
+
+4 Predicate
+bool predicate(condition) it takes an argument and return true or false value.
