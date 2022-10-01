@@ -19,3 +19,11 @@ obj function(abj) it can map a value to a different value.
 
 4 Predicate
 bool predicate(condition) it takes an argument and return true or false value.
+
+5 BinaryOperator
+In Java 8, BinaryOperator is a functional interface and it extends BiFunction.
+public interface BinaryOperator<T> extends BiFunction<T,T,T>
+
+6 UnaryOperator
+public interface UnaryOperator<T> extends Function<T, T>
+In Java 8, UnaryOperator is a functional interface and it extends Function.
